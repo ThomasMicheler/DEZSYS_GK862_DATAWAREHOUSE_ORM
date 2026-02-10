@@ -75,7 +75,7 @@ Create a GITHUB repository for this project and add the link to it in the commen
     * Document each single development step in your protocol and describe the most important code snippets in few sentences. Furthermore, the output of the application and any problems that occur should be documented in submission document.
     * Customize the data model for the Data Warehouse application (min. 2 entities with 1 relation).  
     * Insert following records: 2 Data Warehouse records, 10 Product records.  
-    * Document which parts of the program need to be adapted
+    * Document which parts of the program need to be adapted   
 *  Extended Requirements **Erweiterte Grundlagen**
    *   Find out which methods are available for the CrudRepository to collect data   
         https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/repository/CrudRepository.html.    
@@ -85,8 +85,8 @@ Create a GITHUB repository for this project and add the link to it in the commen
        * Update a data warehouse using datawarehouseID. 
    * Document the parts of your project which have to be extend
    * Extend the data model with data about the customer purchases for a product and warehouse locations (eg. records for sold products like data/time, amount, location/warehouse)
-   * Insert 30 records for sold products
-*  Extended Requirements **Vertiefung**.  
+   * Insert 30 records for sold products   
+*  Extended Requirements **Vertiefung**  
    * Create 250-300 training records (products, purchases)
    * Connect your application with an LLM (local, cloud) and request for an estimation how the products should be distributed across the individual warehouse for a predefined duration
 
