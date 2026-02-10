@@ -1,7 +1,7 @@
 # DEZSYS_GK81_WAREHOUSE_ORM
 
 Join GitHub Repo: https://github.com/ThomasMicheler/DEZSYS_GK862_DATAWAREHOUSE_ORM.git
-X
+   
 This lesson introduces the data accessing model in Spring and the basics of Object Relational Mapping (ORM).
 
 ## Introduction
@@ -68,16 +68,15 @@ Create a GITHUB repository for this project and add the link to it in the commen
 
 - Group size: 1 Person.  
 - Result by protocol and delivery meeting (in English). 
-- Requirements **überwiegend erfüllt**. 
+- Requirements **Grundlagen**. 
     * Answer the questions below about the ORM framework.  
     * Use the tutorial ["Accessing data with MySQL"](https://spring.io/guides/gs/accessing-data-mysql) 
     * Implement the MySQL example with the User database 
     * Document each single development step in your protocol and describe the most important code snippets in few sentences. Furthermore, the output of the application and any problems that occur should be documented in submission document.
-*  Requirements **zur Gänze erfüllt**
-   * Customize the data model for the Data Warehouse application (min. 2 entities with 1 relation).  
-   * Insert following records: 2 Data Warehouse records, 10 Product records.  
-   * Document which parts of the program need to be adapted
-*  Extended Requirements **überwiegend erfüllt**
+    * Customize the data model for the Data Warehouse application (min. 2 entities with 1 relation).  
+    * Insert following records: 2 Data Warehouse records, 10 Product records.  
+    * Document which parts of the program need to be adapted
+*  Extended Requirements **Erweiterte Grundlagen**
    *   Find out which methods are available for the CrudRepository to collect data   
         https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/repository/CrudRepository.html.    
    *  Extend the Data Warehouse repository with following functionalities:   
@@ -85,9 +84,11 @@ Create a GITHUB repository for this project and add the link to it in the commen
        * Collect a single product of a data warehouse specified by datawarehouseID and productID.  
        * Update a data warehouse using datawarehouseID. 
    * Document the parts of your project which have to be extend
-*  Extended Requirements **zur Gänze erfüllt**.  
-   *  Replace the MySQL database management system with a PostgreSQL database management system.  
-   *  Document which configuration files need to be adapted
+   * Extend the data model with data about the customer purchases for a product and warehouse locations (eg. records for sold products like data/time, amount, location/warehouse)
+   * Insert 30 records for sold products
+*  Extended Requirements **Vertiefung**.  
+   * Create 250-300 training records (products, purchases)
+   * Connect your application with an LLM (local, cloud) and request for an estimation how the products should be distributed across the individual warehouse for a predefined duration
 
 
 ## Questions
@@ -103,6 +104,8 @@ Create a GITHUB repository for this project and add the link to it in the commen
    https://docs.spring.io/spring-framework/reference/data-access/orm.html
 * Accessing data with MySQL.  
    https://spring.io/guides/gs/accessing-data-mysql
+* Accessing Data with JPA   
+   https://spring.io/guides/gs/accessing-data-jpa
 * Difference between Hibernate and Spring Data:  
    https://dzone.com/articles/what-is-the-difference-between-hibernate-and-sprin-1
 * Introduction Hibernate:   
