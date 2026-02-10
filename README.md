@@ -85,10 +85,10 @@ Create a GITHUB repository for this project and add the link to it in the commen
        * Update a data warehouse using datawarehouseID. 
    * Document the parts of your project which have to be extend
    * Extend the data model with data about the customer purchases for a product and warehouse locations (eg. records for sold products like data/time, amount, location/warehouse)
-   * Insert 30 records for sold products   
+   * Insert 30 records for sold products
 *  Extended Requirements **Vertiefung**  
    * Create 250-300 training records (products, purchases)
-   * Connect your application with an LLM (local, cloud) and request for an estimation how the products should be distributed across the individual warehouse for a predefined duration
+   * Connect your application with an LLM (local eg. Ollama, cloud-based eg. Google Gemini) and generate a preview of sales numgers for the all warehouses and products over the coming months.
 
 
 ## Questions
