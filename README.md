@@ -1,7 +1,7 @@
 # DEZSYS_GK81_WAREHOUSE_ORM
 
 Join GitHub Repo: https://github.com/ThomasMicheler/DEZSYS_GK862_DATAWAREHOUSE_ORM.git
-
+X
 This lesson introduces the data accessing model in Spring and the basics of Object Relational Mapping (ORM).
 
 ## Introduction
